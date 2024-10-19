@@ -29,6 +29,18 @@ if(didVote >= 65) {
 }
 
 
+// Null - represents empty or nothing
+let age2 = null;
+
+age2 = 45;
+
+console.log(age2);
+
+// Undefined - a variable that is not assigned or have a value is undefined
+
+let f;
+
+console.log(f);
 
 // Complex Datatypes
 // Objects and Symbols are complex datatypes
