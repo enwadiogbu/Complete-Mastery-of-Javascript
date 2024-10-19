@@ -1,4 +1,26 @@
+// Primitive Datatypes
+// strings, numbers, booleans, null, and undefined are primitive datatypes
 
-const variableName = "Hello, World!";
+// String - represent text
+const a = 'Hello Emeka. I need your help doing this assignment.';
+console.log(a);
 
-console.log(variableName);
+// Numbers - represent numbers or digits
+const b = 123;
+const c = 456;
+const d = b + c;
+
+console.log(d);
+
+
+// Backticks as strings
+const age = 45;
+console.log(`Emeka is ${age}`);
+
+
+
+
+
+
+// Complex Datatypes
+// Objects and Symbols are complex datatypes
