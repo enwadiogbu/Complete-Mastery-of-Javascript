@@ -75,3 +75,18 @@ const h = [
 ];
 
 console.log(h[1].keybord);
+
+
+// Statically typed language
+ // programs like C++ are statically typed where variables can only be defined by specific data type eg. int age = 45;
+
+
+// Dynamically typed language
+// javascript is dynamically typed meaning variables can contain any data
+
+
+let message = "Hello, World!";
+
+message = 123456;
+
+console.log(message);
