@@ -36,11 +36,42 @@ age2 = 45;
 
 console.log(age2);
 
-// Undefined - a variable that is not assigned or have a value is undefined
+// Undefined - a variable that is not assigned or have a value is declared
 
 let f;
 
 console.log(f);
 
 // Complex Datatypes
-// Objects and Symbols are complex datatypes
+// Objects and Symbols are complex datatypes 
+// Objects are the most important data-type
+
+const g = {
+    person: 'John',
+    age: 25,
+};
+
+console.log(g);
+console.log(g.person);
+console.log(g.age);
+
+console.log(typeof g.person);
+
+// Arrays store ordered data collections
+const h = [
+    i = {
+        keybord: 'MPC Key 37',
+        software: 'MPC 3.0'
+    },
+    j = {
+        keybord: 'Korg Triton',
+        software: 'Korg internal'
+    },
+    k = {
+        keybord: 'Moog Grandmother',
+        software: 'internal synth'
+    }
+    
+];
+
+console.log(h[1].keybord);
